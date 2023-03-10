@@ -4,9 +4,7 @@ import CalC from './component/CalC';
 
 function App() {
   return (
-    <div className="App">
       <CalC />
-    </div>
   );
 }
 

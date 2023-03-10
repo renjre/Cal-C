@@ -22,7 +22,6 @@ const CalC = () => {
     if (done) {
       setNumbers("")
       setDone(false)
-      debugger
     }
   }
 
@@ -32,7 +31,7 @@ const CalC = () => {
     if (numbers.length > 11) {
       setinputfontSize("18px")
     }
-    
+
     if (numbers !== "" && op) {
       if (numbers.slice(-1) === op) {
         return ""
