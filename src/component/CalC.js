@@ -210,7 +210,7 @@ const CalC = () => {
           </div>
 
           <div className="rows">
-            <div className="btns-btn-number numbers" style={{ width: "190px", borderRadius: "22px" }}
+            <div className="btns-btn-number numbers zeroo"
               onMouseDown={clearAfterResult}
               onClick={(el, symb) => numbersHandlerBtn(el, "0")}>
               <div className="btns">0</div>
