@@ -104,9 +104,8 @@
     width: 450px;
     height: 800px;
   }
-  .container {
+  .container{
     margin-top: 0px;
-    background-color: rgb(83, 83, 83);
-
+    background-color: rgb(83, 83, 83) !important;
   }
 }
