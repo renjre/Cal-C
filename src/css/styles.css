@@ -83,7 +83,7 @@
 
 
 
-@media only screen and (max-device-width: 480px) {
+@media (max-width: 600px) {
   .body {
     padding: 0;
     width: 100%;
@@ -92,14 +92,5 @@
   }
   .container {
     margin-top: 0px;
-  }
-}
-
-@media (max-width: 600px) {
-  .body {
-    padding: 0;
-    width: 100%;
-    height: 800px;
-    padding-top: 30px;
   }
 }
