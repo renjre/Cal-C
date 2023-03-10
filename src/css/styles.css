@@ -86,11 +86,13 @@
 @media (max-width: 600px) {
   .body {
     padding: 0;
-    width: 100%;
+    width: 60%;
     height: 800px;
     padding-top: 30px;
   }
   .container {
     margin-top: 0px;
+  background-color: rgb(83, 83, 83);
+
   }
 }
